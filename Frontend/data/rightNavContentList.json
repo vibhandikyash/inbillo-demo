@@ -1,0 +1,8 @@
+[
+    { "content": "Otwarcie sprawyy", "isActive": true },
+    { "content": "Poswiadczenie dokumentow", "isActive": true },
+    { "content": "Uznanie dlugu", "isActive": true },
+    { "content": "Splata", "isActive": false },
+    { "content": "Otwarcie sprawy", "isActive": false }
+  ]
+  

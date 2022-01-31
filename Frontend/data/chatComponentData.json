@@ -1,0 +1,16 @@
+[
+  {
+    "className": "flex flex-row-reverse ",
+    "initialContent": "Dzien dobry Pani Weronika,",
+    "mainContent": "Sprawa w serwisie Inbillo jest zatozana, barzo prosilbym o rejestracje i zaakceptowanie warunkow.",
+    "date": "16 czerwiec 2020, 16:22",
+    "receive": true
+  },
+  {
+    "className": "flex",
+    "initialContent": "Dzien dobry Pani Weronika,",
+    "mainContent": "Sprawa w serwisie Inbillo jest zatozana, barzo prosilbym o rejestracje i zaakceptowanie warunkow.",
+    "date": "16 czerwiec 2020, 16:22",
+    "receive": false
+  }
+]

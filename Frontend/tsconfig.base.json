@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@inbillo/billoComponent": ["libs/BilloComponents/BilloComponent.tsx"],
+      "@inbillo/accordion": ["libs/AccordionComponent/Accordion.js"],
+      "@inbillo/ButtonComponent": [
+        "libs/shared/ButtonComponents/ButtonComponent.tsx"
+      ],
+      "@inbillo/data-access-common": [
+        "libs/shared/data-access-common/src/index.ts"
+      ],
+      "@inbillo/util-integration": [
+        "libs/shared/util-integration/src/index.ts"
+      ],
+      "@inbillo/data-access-bets": [
+        "libs/shared/data-access-bets/src/index.ts"
+      ],
+      "@inbillo/data-access-socket": [
+        "libs/shared/data-access-socket/src/index.ts"
+      ],
+      "@inbillo/shared": ["libs/shared/util-integration/src/index.ts"],
+      "@inbillo/shared/common-utils": ["libs/shared/common-utils/src/index.ts"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compileOnSave": false,
+
+  "exclude": ["node_modules", "tmp"]
+}

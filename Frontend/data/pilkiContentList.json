@@ -1,0 +1,14 @@
+[
+  {
+    "className": "flex",
+    "initialContent": "Faktura Vat",
+    "mainContent": "FV-062/10/2021",
+    "date": "FV-062/10/2021"
+  },
+  {
+    "className": "flex mt-3",
+    "initialContent": "Umowa",
+    "mainContent": "FV-062/10/2021",
+    "date": "Umowa-062/10/2021"
+  }
+]
